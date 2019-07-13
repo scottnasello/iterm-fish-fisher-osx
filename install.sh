@@ -323,6 +323,34 @@ function install_fisherman_plugins_and_themes() {
     sleep 1
 }
 
+function install_brews() {
+    blue_color
+    echo "addings brews and casks..."
+
+    green_color
+    read -p "Do you want to install brews and casks? (y/N) " -n 1 answer
+    echo
+    if [[ ${answer} == "y" || ${answer} == "Y" ]]; then
+        blue_color
+        echo "Installing Brews and Casks..."
+
+        cd ${TEMP_DIR}
+        curl -fsSL ${BREWS_INSTALLER_URL} > ./add_brews
+        chmod +x ./add_brews
+        ./add_brews
+
+        green_color
+        echo "Brews and Casks added!"
+    else
+        blue_color
+        echo "Skipping Brews and Casks installation..."
+    fi
+
+    reset_color
+    separator
+    sleep 1
+}
+
 function post_install() {
     green_color
     echo
@@ -360,4 +388,5 @@ install_nerd_font
 install_fish
 install_fisherman
 install_fisherman_plugins_and_themes
+install_brews
 post_install
