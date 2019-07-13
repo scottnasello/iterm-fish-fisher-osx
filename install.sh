@@ -18,6 +18,7 @@ COLOR_SCHEME_URL="https://raw.githubusercontent.com/MartinSeeler/iterm2-material
 NERD_FONT_URL="https://github.com/ryanoasis/nerd-fonts/blob/25eec835188d2316ef3fe59820950d9f90c5bcf4/patched-fonts/Meslo/M-DZ/Regular/complete/Meslo%20LG%20M%20DZ%20Regular%20Nerd%20Font%20Complete%20Mono.ttf?raw=true"
 FISHERMAN_URL="https://git.io/fisher"
 PLUGINS_INSTALLER_URL="https://raw.githubusercontent.com/scottnasello/iterm-fish-fisher-osx/master/install_plugins.sh"
+BREWS_INSTALLER_URL="https://raw.githubusercontent.com/scottnasello/iterm-fish-fisher-osx/master/add_brews.sh"
 RESET_COLOR="\033[0m"
 RED_COLOR="\033[0;31m"
 GREEN_COLOR="\033[0;32m"
