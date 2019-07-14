@@ -381,13 +381,13 @@ function on_sigterm() {
 }
 
 hello
-install_command_line_tools
-install_homebrew
-install_iTerm2
-install_color_scheme
-install_nerd_font
-install_fish
-install_fisherman
-install_fisherman_plugins_and_themes
+# install_command_line_tools
+# install_homebrew
+# install_iTerm2
+# install_color_scheme
+# install_nerd_font
+# install_fish
+# install_fisherman
+# install_fisherman_plugins_and_themes
 install_brews
 post_install
