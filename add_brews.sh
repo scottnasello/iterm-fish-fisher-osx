@@ -27,6 +27,7 @@ CASKS=(
     dropbox
     Kindle
     google-chrome
+    opera
     powershell
     #slack
     snagit
