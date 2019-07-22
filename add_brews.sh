@@ -31,6 +31,7 @@ CASKS=(
     powershell
     #slack
     snagit
+    spotify
     visual-studio-code
     Wickrme
 )
